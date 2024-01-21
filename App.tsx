@@ -11,12 +11,13 @@ import {
   StyleSheet
 } from "react-native";
 import ProductScreen from "./src/screens/ProductScreen.tsx";
+import AddSupplierScreen from "./src/screens/AddSupplierScreen.tsx";
 
 
 function App(): React.JSX.Element {
   return (
     <SafeAreaView>
-      <ProductScreen />
+      <AddSupplierScreen />
     </SafeAreaView>
   )
 }
